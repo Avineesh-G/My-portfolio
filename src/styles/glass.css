@@ -21,6 +21,7 @@
 body.dark-mode {
   background: #181c24;
   color: #e0e0e0;
+  transition: background 0.5s, color 0.5s;
 }
 body.dark-mode .glass {
   background: rgba(24,28,36,0.45);
@@ -30,6 +31,27 @@ body.dark-mode .glass {
 /* Basic Hover Animations */
 .btn, .nav-link, .card-3d {
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+/* Accessibility improvements */
+*:focus {
+  outline: 2px solid #2e8b57;
+  outline-offset: 2px;
+}
+
+/* Skeleton loading animation */
+.skeleton {
+  background: #eee;
+  border-radius: 8px;
+  min-height: 2rem;
+  animation: skeleton-loading 1.2s infinite linear;
+}
+@keyframes skeleton-loading {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
+}
 }
 .btn:hover, .nav-link:hover {
   transform: translateY(-2px) scale(1.05);
