@@ -1,4 +1,11 @@
 {
+  "name": "avineesh-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx http-server . -p 3000",
+    "serve": "npx http-server . -p 3000"
+  },
   "dependencies": {
     "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0"
