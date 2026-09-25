@@ -20,18 +20,24 @@ const SKILL_ICONS: Record<string, string> = {
   // Frameworks & Libraries
   "React.js": "devicon-react-original colored",
   "Next.js": "devicon-nextjs-plain colored",
+  "FastAPI": "devicon-fastapi-plain colored",
   "Node.js": "devicon-nodejs-plain colored",
   "Tailwind CSS": "devicon-tailwindcss-plain colored",
   "Vite": "devicon-vitejs-plain colored",
 
-  // Databases & Backend
+  // Databases, Backend & ML
   "Firebase": "devicon-firebase-plain colored",
   "Firestore": "devicon-firebase-plain colored",
   "MongoDB": "devicon-mongodb-plain colored",
+  "PyTorch": "devicon-pytorch-original colored",
+  "Scikit-Learn": "devicon-scikitlearn-plain colored",
+  "Computer Vision (OpenCV)": "devicon-opencv-plain colored",
 
   // Tools & Platforms
   "Git": "devicon-git-plain colored",
   "GitHub": "devicon-github-original colored",
+  "Capacitor (Android Native)": "devicon-capacitor-plain colored",
+  "Android Native": "devicon-android-plain colored",
   "Vercel": "devicon-vercel-original colored",
   "Netlify": "devicon-netlify-plain colored",
   "Figma": "devicon-figma-plain colored",
@@ -40,13 +46,23 @@ const SKILL_ICONS: Record<string, string> = {
 
 const LUCIDE_ICONS: Record<string, keyof typeof Lucide> = {
   "Framer Motion": "Move",
+  "Zustand": "Layers",
+  "Recharts": "BarChart3",
+  "Chart.js": "PieChart",
   "REST APIs": "Globe",
+  "NetCDF / Oceanographic Data": "Waves",
+  "Biometric Auth & Native APIs": "ShieldCheck",
   "Gemini AI": "Sparkles",
   "AI Chatbot Integration": "Sparkles",
-  "Reinforcement Learning Environments": "Brain",
-  "NPC Behaviour Training": "Brain",
+  "Reinforcement Learning": "Brain",
+  "NPC Behaviour Training": "Bot",
   "AI Recommendation Systems": "Sparkles",
+  "MediaPipe Pose Tracking": "Activity",
+  "Predictive Modeling": "TrendingUp",
+  "Feature Engineering": "Sliders",
   "CI/CD": "GitBranch",
+  "PWA (Progressive Web Apps)": "Smartphone",
+  "Google OAuth & Gmail API": "Mail",
   "Data Structures & Algorithms": "Code2",
   "OOPs": "Code2",
   "DBMS": "Database",

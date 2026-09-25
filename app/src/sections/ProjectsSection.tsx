@@ -8,6 +8,48 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
+    name: "LifeOS – Unified Personal Operating System",
+    description:
+      "A unified, offline-first personal operating system for Android and Web. Features native launcher widgets, hardware-synced focus timers, gym hypertrophy tracking, trip expense splitting, biometric vault, mess menu, and automated SHA-256 APK updates.",
+    image: "/assets/lifeos.jpg",
+    techStack: ["React", "TypeScript", "Capacitor 8", "Android Native", "Tailwind CSS", "Firebase", "Google Generative AI", "Framer Motion"],
+    link: "https://lifeos-gujjeti-avineeshs-projects.vercel.app/download",
+    githubLink: "https://github.com/Avineesh-G/LIFEOS",
+  },
+  {
+    name: "Flow – Personal Expense & Savings Tracker (PWA)",
+    description:
+      "A calm, local-first personal financial companion featuring automatic Gmail transaction sync across 14 Indian banking domains, Google OAuth2, Zustand state persistence, Recharts donut insights, calendar spending heatmaps, and PWA installation.",
+    image: "/assets/flow-expense-tracker.jpg",
+    techStack: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "Zustand", "Recharts", "Google OAuth & Gmail API", "PWA"],
+    link: "https://flow-expenses-tracker.vercel.app/",
+    githubLink: "https://github.com/Avineesh-G/Flow-Expenses-Tracker",
+  },
+  {
+    name: "OceanEmbed – Subsurface Ocean Temperature Reconstruction (SIH)",
+    description:
+      "Engineered an oceanographic modeling and visualization system to reconstruct 3D subsurface ocean temperature profiles across the North Indian Ocean using Copernicus Marine Service NetCDF datasets, FastAPI REST microservices, PyTorch, and a React dashboard.",
+    image: "/assets/oceanembed.jpg",
+    techStack: ["React", "TypeScript", "FastAPI", "Python", "PyTorch", "Tailwind CSS", "NetCDF Oceanographic Data"],
+    githubLink: "https://github.com/Avineesh-G/Ocean-embed-main",
+  },
+  {
+    name: "Cricket Action Recognition — ML Pipeline",
+    description:
+      "Machine learning pipeline classifying 23 cricket outcome classes (shots, dismissals, bowling types) from video clips and MediaPipe 3D pose keypoints using early feature fusion, HOG, Optical Flow, PCA, and calibrated soft Voting Classifiers (Random Forest + SVM).",
+    image: "/assets/cricket-action-ml.jpg",
+    techStack: ["Python", "Scikit-Learn", "OpenCV", "MediaPipe Pose", "Random Forest & SVM", "Optical Flow & HOG", "PCA"],
+    githubLink: "https://github.com/Avineesh-G/Python-Model-Cricket-Analyzer-",
+  },
+  {
+    name: "GitHub Developer Evolution Predictor",
+    description:
+      "Machine learning predictive framework that analyzes 22 developer activity metrics via GitHub REST API to forecast career growth rate, hire probability (regression), project quality score, developer tier, and next technology recommendations.",
+    image: "/assets/github-developer-predictor.jpg",
+    techStack: ["Python", "Scikit-Learn", "Gradient Boosting", "Random Forest", "GitHub REST API", "Pandas", "NumPy"],
+    githubLink: "https://github.com/Avineesh-G/Github-Profile-Analyzer",
+  },
+  {
     name: "CompanionX – Intelligent Ride-Sharing Platform",
     description:
       "Engineered a web-based ride-sharing platform designed to optimize bus travel costs by intelligently matching users with co-travellers on shared routes.",

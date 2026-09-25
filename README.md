@@ -1,32 +1,68 @@
-﻿# ✦ Gujjeti Avineesh — Portfolio
+# Gujjeti Avineesh — Portfolio
 
-A high-fidelity personal portfolio site built with **React 19**, **Three.js**, and **GSAP**. Features a live WebGL 3D scene, scroll-driven animations, a multilingual iPhone-style intro screen, and smooth parallax section reveals.
+[![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript_5-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite_7-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
+[![GSAP](https://img.shields.io/badge/GSAP_3-88CE02?style=for-the-badge&logo=greensock&logoColor=white)](https://greensock.com/gsap/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_3-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Deployment](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
-> **Live →** *https://gujjeti-avineesh-portfolio-v1pf-fluhvdqoj.vercel.app
----
+A high-fidelity, interactive personal portfolio website engineered by **Gujjeti Avineesh**. Built with React 19, raw Three.js WebGL rendering, and GSAP ScrollTrigger animations.
 
-## ✨ Features
-
-- **Immersive 3D Background** — Raw Three.js scene with an animated icosahedron wireframe, an inner spinner mesh, a 1 000-instance particle cloud, and a cylindrical text ribbon, all running on a fixed WebGL canvas behind the page content.
-- **Cinematic Intro Sequence** — iPhone-style multilingual greeting screen that dissolves into the 3D scene via a multi-phase GSAP timeline (loading indicator → spinner dissolve → overlay fade → 3D text reveal → hero content stagger).
-- **Scroll-Driven Camera** — A single GSAP ScrollTrigger maps page scroll progress (0 → 1) to a power-curve camera Y movement, lerp-smoothed every frame.
-- **Mouse-Reactive Rotation** — Desktop mouse position drives the 3D group rotation in real time via per-frame lerp; touch devices fall back to auto-rotation.
-- **Parallax Section Reveals** — Every content band animates from opacity 0 / translateY -80px to fully visible as it enters the viewport.
-- **Five Content Sections** — Hero, About, Skills, Projects, Contact — each with its own internal staggered entrance animations.
-- **Fully Responsive** — Works on desktop, tablet, and mobile. Touch devices receive adapted 3D behaviour.
+> **Live Deployment:** [https://gujjeti-avineesh-portfolio-v1pf-fluhvdqoj.vercel.app](https://gujjeti-avineesh-portfolio-v1pf-fluhvdqoj.vercel.app)  
+> **GitHub Repository:** [https://github.com/Avineesh-G/My-portfolio](https://github.com/Avineesh-G/My-portfolio)
 
 ---
 
-## 🗂 Project Structure
+## Key Features
 
-```
+- **Immersive 3D Canvas Background**: Fixed WebGL canvas running behind page content, featuring a wireframe icosahedron, an inner spinner mesh, a 1,000-instance particle field, and a cylindrical text ribbon driven by a high-performance `requestAnimationFrame` loop.
+- **Cinematic iPhone Intro Sequence**: Multilingual intro greeting screen with a multi-phase GSAP timeline (loading indicator -> spinner dissolve -> overlay fade -> 3D text reveal -> hero content stagger).
+- **Scroll-Driven Camera**: GSAP ScrollTrigger mapping page scroll progress (0 to 1) to a power-curve camera Y movement, lerp-smoothed on every frame.
+- **Mouse & Touch Reactive 3D Group**: Desktop mouse coordinates rotate the 3D scene in real time via per-frame lerp, with an auto-rotation fallback for touch devices.
+- **Parallax Section Reveals**: Content bands animate smoothly from `opacity: 0` and `translateY: -80px` to fully visible upon entering the viewport.
+- **Featured Work Grid**: Showcase of 8+ full-stack, machine learning, deep learning, and mobile applications with live demo links, repository links, and tech stack tags.
+
+---
+
+## Featured Projects
+
+| Project | Category | Key Technologies | Links |
+|---|---|---|---|
+| **LifeOS** | Android / Web OS | React, TypeScript, Capacitor 8, Android Native, Tailwind CSS, Firebase, Google Generative AI | [Live / Download](https://lifeos-gujjeti-avineeshs-projects.vercel.app/download) \| [GitHub](https://github.com/Avineesh-G/LIFEOS) |
+| **Flow Tracker** | Financial PWA | React 18, TypeScript, Tailwind CSS, Framer Motion, Zustand, Recharts, Google OAuth, Gmail API, PWA | [Live Demo](https://flow-expenses-tracker.vercel.app/) \| [GitHub](https://github.com/Avineesh-G/Flow-Expenses-Tracker) |
+| **OceanEmbed (SIH)** | Geospatial Deep Learning | React, TypeScript, FastAPI, Python, PyTorch, Tailwind CSS, NetCDF Oceanographic Data | [GitHub](https://github.com/Avineesh-G/Ocean-embed-main) |
+| **Cricket Action ML** | Computer Vision / ML | Python, Scikit-Learn, OpenCV, MediaPipe Pose, Random Forest, SVM, Optical Flow, HOG, PCA | [GitHub](https://github.com/Avineesh-G/Python-Model-Cricket-Analyzer-) |
+| **GitHub Developer Predictor** | Machine Learning Analytics | Python, Scikit-Learn, Gradient Boosting, Random Forest, GitHub REST API, Pandas, NumPy | [GitHub](https://github.com/Avineesh-G/Github-Profile-Analyzer) |
+| **CompanionX** | Bus Ride-Sharing | TypeScript, JavaScript, HTML, CSS | [Live Demo](https://companion-x.vercel.app/) |
+| **LaundryHub** | AI Laundry Management | React, TypeScript, Firebase, Tailwind CSS, Gemini AI | [Live Demo](https://laundryhub-5ab8e.web.app/login) |
+| **Ultimate Career AI** | AI Career Advisor | JavaScript, Node.js, Firebase, Gemini AI, Chart.js | [Live Demo](https://ultimate-career-ai-456a5.web.app/) |
+| **Hand Gesture Space Shooter** | Gesture Controlled Game | JavaScript, MediaPipe, HTML, CSS | [Live Demo](https://hand-gestures-space-void.vercel.app/) |
+
+---
+
+## Skills Architecture
+
+- **Languages**: Java, Python, JavaScript, TypeScript, C / C++, SQL, HTML5, CSS3
+- **Frameworks & Libraries**: React.js, Next.js, FastAPI, Node.js, Tailwind CSS, Zustand, Recharts, Chart.js, Vite, Framer Motion
+- **Databases & Backend**: Firebase, Firestore, REST APIs, MongoDB, NetCDF / Oceanographic Data
+- **Machine Learning & AI**: Scikit-Learn, PyTorch, Computer Vision (OpenCV), MediaPipe Pose Tracking, Predictive Modeling, Feature Engineering, Gemini AI, Reinforcement Learning, NPC Behaviour Training
+- **Tools & Platforms**: Git, GitHub, Capacitor (Android Native), PWA (Progressive Web Apps), Google OAuth & Gmail API, Biometric Auth, CI/CD, Vercel, Firebase Hosting, Netlify, Figma, Canva
+- **Core Fundamentals**: Data Structures & Algorithms, OOPs, DBMS, System Design
+
+---
+
+## Project Structure
+
+```text
 G.Avineesh/
-├── app/                        # Vite + React application
+├── app/                        # Vite + React 19 application
 │   ├── src/
-│   │   ├── App.tsx             # Root shell — canvas, scroll tracking, mouse tracking
+│   │   ├── App.tsx             # Root shell — canvas mount, scroll & mouse tracking
 │   │   ├── main.tsx            # React entry point
 │   │   ├── hooks/
-│   │   │   └── useScene.ts     # Full Three.js scene lifecycle (renderer, scene, RAF loop)
+│   │   │   └── useScene.ts     # Three.js lifecycle (renderer, camera, particles, RAF loop)
 │   │   ├── sections/
 │   │   │   ├── HeroSection.tsx
 │   │   │   ├── AboutSection.tsx
@@ -34,116 +70,81 @@ G.Avineesh/
 │   │   │   ├── ProjectsSection.tsx
 │   │   │   └── ContactSection.tsx
 │   │   ├── components/
-│   │   │   └── IPhoneIntro.tsx # Multilingual intro animation
-│   │   ├── pages/
-│   │   └── lib/
+│   │   │   ├── IPhoneIntro.tsx # Multilingual intro animation
+│   │   │   ├── ProjectCard.tsx # Project card component with live & github links
+│   │   │   └── SkillPill.tsx   # Skill badge with Devicon / Lucide icon mappings
 │   ├── public/
-│   ├── index.html
+│   │   └── assets/             # Project screenshots & visual assets
 │   ├── vite.config.ts
 │   ├── tailwind.config.js
-│   ├── vercel.json             # SPA rewrite rule for Vercel
+│   ├── vercel.json             # Vercel SPA route rewrite configuration
 │   └── package.json
-├── tech-spec.md                # Architecture & animation decisions
+├── tech-spec.md                # Architecture & animation specification
 └── GUJJETI AVINEESH RESUME.pdf
 ```
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack Summary
 
 | Layer | Technology |
 |---|---|
 | Framework | React 19 + TypeScript |
-| Build tool | Vite 7 |
+| Build Tool | Vite 7 |
 | Styling | Tailwind CSS 3 |
-| 3D engine | Three.js (raw — no React Three Fiber) |
+| 3D Engine | Three.js (raw WebGL — no R3F wrapper) |
 | Animation | GSAP 3 + ScrollTrigger |
 | Routing | React Router 7 |
-| Icons | Lucide React |
-| Fonts | DM Sans (display), Inter (body) via Fontsource |
+| Icons | Devicon CDN + Lucide React |
 | Deployment | Vercel |
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-- **Node.js** ≥ 18
-- **npm** ≥ 9
+- **Node.js** >= 18
+- **npm** >= 9
 
 ### Installation
 
 ```bash
-# Clone the repo
-git clone https://github.com/<your-username>/G.Avineesh.git
-cd G.Avineesh/app
+# Clone the repository
+git clone https://github.com/Avineesh-G/My-portfolio.git
+cd My-portfolio/app
 
 # Install dependencies
 npm install
 ```
 
-### Development
+### Development Server
 
 ```bash
 npm run dev
 ```
 
-Opens at `http://localhost:5173` with HMR enabled.
+App will run locally at `http://localhost:3000` with HMR enabled.
 
 ### Production Build
 
 ```bash
-npm run build     # Type-check + bundle → dist/
-npm run preview   # Preview the production build locally
-```
-
-### Lint
-
-```bash
-npm run lint
+npm run build     # Type-check + bundle -> build/
+npm run preview   # Preview production build locally
 ```
 
 ---
 
-## 🌐 Deployment (Vercel)
+## Deployment (Vercel)
 
-The project includes a `vercel.json` that rewrites all routes to `index.html` for SPA navigation.
+The repository contains `app/vercel.json` configured for single-page application routing.
 
-1. Push the repository to GitHub.
-2. Import the project in [Vercel](https://vercel.com/new).
-3. Set the **Root Directory** to `app`.
-4. Vercel auto-detects Vite — no extra configuration needed.
-5. Click **Deploy**.
+1. Import the repository `https://github.com/Avineesh-G/My-portfolio` into Vercel.
+2. Set the **Root Directory** to `app`.
+3. Vercel auto-detects Vite. Click **Deploy**.
 
 ---
 
-## 🎨 Animation Architecture
+## License
 
-The animation system is split into two coordinated layers:
-
-| Layer | Library | Runs In |
-|---|---|---|
-| 3D scene objects (icosahedron, cloud, ribbon) | Three.js | requestAnimationFrame loop outside React |
-| DOM reveals & intro sequence | GSAP + ScrollTrigger | React useEffect hooks |
-
-The two layers share lightweight refs (`scrollProgressRef`, `mousePosRef`) that React writes and the Three.js render loop reads — keeping 3D rendering fully decoupled from React's reconciler.
-
-For a detailed breakdown of every animation, see [`tech-spec.md`](tech-spec.md).
-
----
-
-## 📁 Key Files
-
-| File | Purpose |
-|---|---|
-| `src/hooks/useScene.ts` | Entire Three.js scene: renderer, camera, all 3D objects, RAF loop, cleanup |
-| `src/App.tsx` | Canvas mount, scroll progress tracking, mouse tracking, section layout |
-| `src/components/IPhoneIntro.tsx` | Multilingual intro screen with GSAP exit timeline |
-| `tech-spec.md` | Full architecture doc: dependencies, component inventory, animation plan |
-
----
-
-## 📄 License
-
-This project is personal and not licensed for redistribution. All design, code, and content belong to **Gujjeti Avineesh**.
+This project is personal and proprietary. All design, source code, and assets belong to **Gujjeti Avineesh**.
