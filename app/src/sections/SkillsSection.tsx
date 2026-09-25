@@ -54,6 +54,9 @@ const skillCategories = [
     skills: [
       "Scikit-Learn",
       "PyTorch",
+      "PyTorch Geometric",
+      "Graph Neural Networks (GraphSAGE)",
+      "Cybersecurity Analytics",
       "Computer Vision (OpenCV)",
       "MediaPipe Pose Tracking",
       "Predictive Modeling",

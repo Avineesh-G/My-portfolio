@@ -31,6 +31,7 @@ A high-fidelity, interactive personal portfolio website engineered by **Gujjeti 
 | Project | Category | Key Technologies | Links |
 |---|---|---|---|
 | **LifeOS** | Android / Web OS | React, TypeScript, Capacitor 8, Android Native, Tailwind CSS, Firebase, Google Generative AI | [Live / Download](https://lifeos-gujjeti-avineeshs-projects.vercel.app/download) \| [GitHub](https://github.com/Avineesh-G/LIFEOS) |
+| **AI Cyber Defense** | Cybersecurity / GNN | Python, PyTorch, PyTorch Geometric, Graph Neural Networks (GraphSAGE), FastAPI, Scikit-Learn | [GitHub](https://github.com/Avineesh-G/AI-Cyber-Defence-platform) |
 | **Flow Tracker** | Financial PWA | React 18, TypeScript, Tailwind CSS, Framer Motion, Zustand, Recharts, Google OAuth, Gmail API, PWA | [Live Demo](https://flow-expenses-tracker.vercel.app/) \| [GitHub](https://github.com/Avineesh-G/Flow-Expenses-Tracker) |
 | **OceanEmbed (SIH)** | Geospatial Deep Learning | React, TypeScript, FastAPI, Python, PyTorch, Tailwind CSS, NetCDF Oceanographic Data | [GitHub](https://github.com/Avineesh-G/Ocean-embed-main) |
 | **Cricket Action ML** | Computer Vision / ML | Python, Scikit-Learn, OpenCV, MediaPipe Pose, Random Forest, SVM, Optical Flow, HOG, PCA | [GitHub](https://github.com/Avineesh-G/Python-Model-Cricket-Analyzer-) |
@@ -47,7 +48,7 @@ A high-fidelity, interactive personal portfolio website engineered by **Gujjeti 
 - **Languages**: Java, Python, JavaScript, TypeScript, C / C++, SQL, HTML5, CSS3
 - **Frameworks & Libraries**: React.js, Next.js, FastAPI, Node.js, Tailwind CSS, Zustand, Recharts, Chart.js, Vite, Framer Motion
 - **Databases & Backend**: Firebase, Firestore, REST APIs, MongoDB, NetCDF / Oceanographic Data
-- **Machine Learning & AI**: Scikit-Learn, PyTorch, Computer Vision (OpenCV), MediaPipe Pose Tracking, Predictive Modeling, Feature Engineering, Gemini AI, Reinforcement Learning, NPC Behaviour Training
+- **Machine Learning & AI**: Scikit-Learn, PyTorch, PyTorch Geometric, Graph Neural Networks (GraphSAGE), Cybersecurity Analytics, Computer Vision (OpenCV), MediaPipe Pose Tracking, Predictive Modeling, Feature Engineering, Gemini AI, Reinforcement Learning, NPC Behaviour Training
 - **Tools & Platforms**: Git, GitHub, Capacitor (Android Native), PWA (Progressive Web Apps), Google OAuth & Gmail API, Biometric Auth, CI/CD, Vercel, Firebase Hosting, Netlify, Figma, Canva
 - **Core Fundamentals**: Data Structures & Algorithms, OOPs, DBMS, System Design
 

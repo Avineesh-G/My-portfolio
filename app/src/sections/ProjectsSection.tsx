@@ -17,6 +17,14 @@ const projects = [
     githubLink: "https://github.com/Avineesh-G/LIFEOS",
   },
   {
+    name: "AI Cyber Defense Platform",
+    description:
+      "Advanced AI cybersecurity platform for Network Intrusion Detection (NIDS), Graph Neural Network (GraphSAGE) lateral movement threat analysis, automated threat intelligence pipelines, and real-time low-latency FastAPI prediction microservices.",
+    image: "/assets/cyber-defense.jpg",
+    techStack: ["Python", "PyTorch", "PyTorch Geometric", "Graph Neural Networks", "FastAPI", "Scikit-Learn", "Transformers", "Cybersecurity Analytics"],
+    githubLink: "https://github.com/Avineesh-G/AI-Cyber-Defence-platform",
+  },
+  {
     name: "Flow – Personal Expense & Savings Tracker (PWA)",
     description:
       "A calm, local-first personal financial companion featuring automatic Gmail transaction sync across 14 Indian banking domains, Google OAuth2, Zustand state persistence, Recharts donut insights, calendar spending heatmaps, and PWA installation.",
